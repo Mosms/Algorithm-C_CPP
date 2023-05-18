@@ -1,6 +1,6 @@
 # 算法集合实现
 
-> Written by Bo Fu.
+> Written by Bo Fu. From NJU.
 
 - 这是一个对常见高效算法集合的实现与存储库。
 - 主要使用C/CPP实现。
