@@ -77,13 +77,16 @@
 MST(Minimal Spanning Tree) Problem
 
 - Kruskal Algorithm
-- Prim Algorithm(WTD)
+- Prim Algorithm
+  - WTD
 
 ### 拓扑排序算法
 
 针对于DAG(Directed Acyclic Graphs)的拓扑排序算法实现。
 
-### 连通分量（WTD）
+### 连通分量
+
+- WTD
 
 主要用于无向图
 
@@ -95,7 +98,9 @@ MST(Minimal Spanning Tree) Problem
 
 - Tarjan Algorithm
 
-### 最短路径问题（WTD）
+### 最短路径问题
+
+- WTD
 
 - SSSP（Single Source Shortest Path）
 
