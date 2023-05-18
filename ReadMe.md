@@ -69,12 +69,14 @@
 
 ### 图上遍历
 
-- DFS(Depth First Searching)，深度优先搜索(WTD)
-- BFS(Breath First Searching)，广度优先搜索(WTD)
+- WTD
+
+- 深度优先搜索，DFS（Depth First Searching）
+- 广度优先搜索，BFS（Breath First Searching）
 
 ### 最小生成树问题
 
-MST(Minimal Spanning Tree) Problem
+MST（**Minimal Spanning Tree**） Problem
 
 - Kruskal Algorithm
 - Prim Algorithm
@@ -82,7 +84,7 @@ MST(Minimal Spanning Tree) Problem
 
 ### 拓扑排序算法
 
-针对于DAG(Directed Acyclic Graphs)的拓扑排序算法实现。
+针对于DAG（**Directed Acyclic Graphs**）的拓扑排序算法实现。
 
 ### 连通分量
 
@@ -92,7 +94,7 @@ MST(Minimal Spanning Tree) Problem
 
 - Union-Find Set 
 
-  并查集 + BFS/DFS(直接搜边) 实现
+  并查集 + BFS/DFS（直接搜边） 实现
 
 ### 强（双）连通分量
 
