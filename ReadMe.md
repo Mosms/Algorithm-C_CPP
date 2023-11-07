@@ -1,6 +1,8 @@
 # 算法集合实现
 
-> Written by Bo Fu. From NJU.
+> Written by B. Fu. From NJU.
+>
+> One of my emails is feaka@foxmail.com, if you have questions, feel free to contract me.
 
 - 这是一个对常见高效算法集合的实现与存储库。
 - 主要使用C/CPP实现。
@@ -148,6 +150,17 @@ MST（**Minimal Spanning Tree**） Problem
 ###  最长公共子序列问题（LCS - Longest Common Subsequence）
 
 - WTD
+
+### CYK算法（CYK Algorithm）
+
+CYK算法是一个基于“动态规划”设计思想，用于测试串 $w$ 对于一个上下文无关文法 $G$ 构成的上下文无关语言 $L\left(G\right)$ 的成员性的一个算法。
+
++ 默认输入为乔姆斯基范式（**C**homsky **N**ormal **F**orm）。
+  + 可以证明，所有上下文无关语法都存在某个 **CNF** 与之完全等价对应。
++ 核心思路是用三角表格记录可以生成 $w_{\left[i,j\right]}$ 的符号，在此基础上升序遍历字符串长度，对于 $2$ 以上长度的字符串，将其分为两段，并遍历检查这两段所有可能的（由于升序遍历，这两段的信息一定已计算过）符号有序对是否存在相应的生成规则，并将可生成的符号记录到表格内，最后我们只需要检查可生成原字符串的符号内是否包含起始符号即可。
+  + 算法复杂度为 $O(\left|w\right|^{3})$，具体复杂度也依赖于具体实现。
+    + 跑满的情况下复杂度也与给定 **CNF** 的“长度”有关。
++ 具体实现可见《动态规划》目录，也即 `./动态规划/CYK.cpp`。
 
 ### 背包问题（Knappack Problem）
 
