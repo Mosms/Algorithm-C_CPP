@@ -1,8 +1,10 @@
 # 算法集合实现
 
-> Written by B. Fu. From NJU.
+> Written by Bo Fu. From NJU.
 >
-> One of my emails is feaka@foxmail.com, if you have questions, feel free to contract me.
+> My homepage is now visible as [mosms.github.io](https://mosms.github.io/). 
+>
+> If you have any problem, welcome to communicate with me.
 
 - 这是一个对常见高效算法集合的实现与存储库。
 - 主要使用C/CPP实现。
